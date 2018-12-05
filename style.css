@@ -1,7 +1,7 @@
 .jumbotron {
     text-align: center;
     padding: 20px;
-    background-color: rgb(179, 103, 179);
+    background-color: rgb(14, 69, 151);
     color: white;
 }
 
@@ -12,3 +12,23 @@
     margin-bottom: 20px;
 }
 
+.card-header {
+    background-color: rgb(14, 69, 151);
+    color: white;
+}
+
+.search {
+    background-color: rgb(14, 69, 151);
+    color: white;
+}
+
+.clear {
+    background-color: rgb(14, 69, 151);
+    color: white;
+}
+
+.articleBox {
+    border: 2px solid grey;
+    padding: 20px;
+    margin-bottom: 20px;
+}

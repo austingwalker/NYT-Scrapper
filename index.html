@@ -43,23 +43,34 @@
                             <input type="text" class="form-control" id="search-terms">
                             
                         </div>
+
                         <div class="form-group">
+                                <label for="number-records">Number of Records to Retrieve</label>
+                                <select class="form-control" id="number-records">
+                                  <option value=1>1</option>
+                                  <option value=5 selected>5</option>
+                                  <option value=10>10</option>
+                                </select>
+                              </div>
+
+
+                        <!-- <div class="form-group">
                             <label for="number-records">Number of Records to Retrieve:</label>
-                            <input type="number" class="form-control" id="number-records">
-                        </div>
+                            <input type="text" class="form-control" id="number-records">
+                        </div> -->
                         <div class="form-group">
                             <label for="start-year">Start Year (Optional):</label>
-                            <input type="number" class="form-control" id="start-year">
+                            <input type="text" class="form-control" id="start-year">
                         </div>
                         <div class="form-group">
                             <label for="end-year">End Year (Optional):</label>
-                            <input type="number" class="form-control" id="end-year">
+                            <input type="text" class="form-control" id="end-year">
                         </div>
                         <div class="row">
                         
                         <button type="search" class="btn btn-primary search" style="margin: 10px">Search</button>
                         
-                        <button type="clear" class="btn btn-primary clear" style="margin: 10px">Clear</button>
+                        <button type="clear" class="btn btn-primary clear" style="margin: 10px">Clear Results</button>
                         </div>
                     </form>
 
@@ -88,7 +99,6 @@
         </div>
 
     </div>
-
 
     <script type="text/javaScript" src="api.js"></script>
 </body>
