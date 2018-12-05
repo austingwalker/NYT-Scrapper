@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+
+
+    <link rel="stylesheet" type="text/css" href="style.css">
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+
+    <title>Document</title>
+</head>
+
+<body>
+
+    <div class="row">
+        <div class="col-md-2"></div>
+        <div class="jumbotron col-md-8">
+            <h1 class="display-4">New York Times Search</h1>
+        </div>
+        <div class="col-md-2"></div>
+    </div>
+
+    <div class="wrapper">
+
+        <div class="container">
+
+            <div class="card">
+                <div class="card-header">
+                    Search Parameters
+                </div>
+                <div class="card-body">
+
+                    <form>
+                        <div class="form-group">
+                            <label for="search-terms">Search Term:</label>
+                            <input type="text" class="form-control" id="search-terms">
+                            
+                        </div>
+                        <div class="form-group">
+                            <label for="number-records">Number of Records to Retrieve:</label>
+                            <input type="number" class="form-control" id="number-records">
+                        </div>
+                        <div class="form-group">
+                            <label for="start-year">Start Year (Optional):</label>
+                            <input type="number" class="form-control" id="start-year">
+                        </div>
+                        <div class="form-group">
+                            <label for="end-year">End Year (Optional):</label>
+                            <input type="number" class="form-control" id="end-year">
+                        </div>
+                        <div class="row">
+                        
+                        <button type="search" class="btn btn-primary search" style="margin: 10px">Search</button>
+                        
+                        <button type="clear" class="btn btn-primary clear" style="margin: 10px">Clear</button>
+                        </div>
+                    </form>
+
+                </div>
+            </div>
+
+            <div class="row">
+                    <br>
+                    </div>
+
+            <div class="card">
+                    <div class="card-header">
+                        Top Articles
+                    </div>
+                    <div class="card-body article-view">
+
+                        </div>
+                    </div>
+
+                    <div class="row">
+                            <br>
+                            </div>
+
+
+
+        </div>
+
+    </div>
+
+
+    <script type="text/javaScript" src="api.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,14 @@
+.jumbotron {
+    text-align: center;
+    padding: 20px;
+    background-color: rgb(179, 103, 179);
+    color: white;
+}
+
+
+#contentSplit {
+    border-bottom: 2px solid black;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+}
+
